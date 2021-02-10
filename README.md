@@ -87,7 +87,7 @@ For example:
 
 ### Disclaimer and known issues
 
-0. These codes are implmented in Tensorflow
+0. These codes are implemented in Tensorflow
 0. In this paper, we only use the glioblastoma (HGG) dataset.
 0. I didn't config nipype.interfaces.ants.segmentation. So if you need to use `n4correction.py` code, you need to copy it to the bin directory where antsRegistration etc are located. Then run `python n4correction.py`
 0. If you want to train these models using this version of tensorflow without modifications, please notice that:
